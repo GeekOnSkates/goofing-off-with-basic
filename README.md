@@ -17,11 +17,13 @@ Down the road, I might play with it some more, but if I do I think I might switc
 60 POKE 646,3
 70 PRINT ""
 80 PRINT "   Tech, Hockey, and all things Geeky   "
-90 FOR i=0 to 10: PRINT "": NEXT i
-100 POKE 198,0: WAIT 198,1 
-110 POKE 646,14
-120 POKE 53280,14
-130 POKE 53281,6
+90 POKE 646,14
+100 PRINT ""
+110 PRINT "       http://www.geekonskates.com"
+120 FOR i=0 to 10: PRINT "": NEXT i
+130 POKE 198,0: WAIT 198,1 
+140 POKE 53280,14
+150 POKE 53281,6
 ```
 
 ## To run it:
